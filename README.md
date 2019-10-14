@@ -57,6 +57,6 @@ Now, you can our simulator and then open another terminal:
 ```
 rosrun hector_quadrotor_gazebo persuit_evasion.py
 ```
-When a Qt video window shows, type the key _p_ and you can see the performance.
+When a Qt video window shows, typr the key _y_ to take off, type the key _p_ and you can see the performance. Key _h_ is land.
 
 ![image](https://github.com/Shicheng-Liu/persuit_evasion_game/blob/master/persuit-evasion-game.gif)
