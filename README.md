@@ -37,5 +37,25 @@ To implement this algorithm on drones, we need drone simulation to prove it. Thi
 <br>
 <br> First, clone this repository into an empty folder:
 ```
-git clone 
+git clone https://github.com/Shicheng-Liu/persuit_evasion_game.git
 ```
+Then change the name of this repo(you just download as a folder) to src, and then:
+```
+catkin_make
+```
+If you find that there an error about gazebo-ros-controller, you need to install it first.
+<br>
+<br>
+Now, we have built our environment and we can work on the simulation now. Oh, don't forget to source this workspace first!
+<br>
+Open a terminal:
+```
+roslaunch hector_quadrotor_gazebo nrsl_two_drones.launch
+```
+Now, you can our simulator and then open another terminal:
+```
+rosrun hector_quadrotor_gazebo persuit_evasion.py
+```
+When a Qt video window shows, type the key _p_ and you can see the performance.
+
+![image](https://github.com/Shicheng-Liu/persuit_evasion_game/blob/master/persuit_evasion_game.gif)
