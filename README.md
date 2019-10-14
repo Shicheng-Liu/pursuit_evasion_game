@@ -28,3 +28,14 @@ In this fig, the ability of pursuer is 10(which is high) so that the evader cann
 ![image](https://github.com/Shicheng-Liu/persuit_evasion_game/blob/master/uncertainty_estimation.jpg)
 
 The estimated ability is 6.5. In this situation, the evader can reach the goal.
+
+![image](https://github.com/Shicheng-Liu/persuit_evasion_game/blob/master/estimation_curve.png)
+
+Gazebo simulation
+--
+To implement this algorithm on drones, we need drone simulation to prove it. This simulator is based on _hectquadrotor_.
+<br>
+<br> First, clone this repository into an empty folder:
+```
+git clone 
+```
