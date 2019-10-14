@@ -34,7 +34,7 @@ The estimated ability is 6.5. In this situation, the evader can reach the goal.
 Gazebo simulation
 --
 To implement this algorithm on drones, we need drone simulation to prove it. This simulator is based on _hectquadrotor_.
-<br> This simulation is tested on Ubuntu16 ROS kinetic
+<br> **This simulation is tested on Ubuntu16 ROS kinetic**
 <br>
 <br> First, clone this repository into an empty folder:
 ```
