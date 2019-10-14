@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+  <param name="/use_sim_time" value="true" />
+  
+  <!-- start the world -->
+  <node name="gazebo" pkg="gazebo_ros" type="gazebo"
+    args="$(find hector_quadrotor_gazebo)/worlds/nrsl_with_obstacles.world" respawn="false" output="screen" />
+
+  <!-- Spawn simulated quadrotor uav -->
+  <include file="$(find hector_quadrotor_gazebo)/launch/drones.launch" />
+</launch>

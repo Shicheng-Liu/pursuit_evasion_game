@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <group ns="drone1">
+    <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch"> 
+      <arg name="name" value="drone1" />
+      <arg name="tf_prefix" value="drone1" />
+      <arg name="model" default="$(find hector_quadrotor_description)/urdf/quadrotor_hokuyo_utm30lx.gazebo.xacro" />
+      <arg name="x" value="-2.5" />
+    </include>
+  </group>
+
+  <group ns="drone2">
+    <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch"> 
+      <arg name="name" value="drone2" />
+      <arg name="tf_prefix" value="drone2" />
+      <arg name="model" default="$(find hector_quadrotor_description)/urdf/quadrotor_hokuyo_utm30lx.gazebo.xacro" />
+      <arg name="x" value="2.5" />
+      <arg name="y" value="2.0" />
+    </include>
+  </group>
+
+</launch>
