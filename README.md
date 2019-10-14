@@ -58,4 +58,4 @@ rosrun hector_quadrotor_gazebo persuit_evasion.py
 ```
 When a Qt video window shows, type the key _p_ and you can see the performance.
 
-![image](https://github.com/Shicheng-Liu/persuit_evasion_game/blob/master/persuit_evasion_game.gif)
+![image](https://github.com/Shicheng-Liu/persuit_evasion_game/blob/master/persuit-evasion-game.gif)
