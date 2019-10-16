@@ -55,7 +55,7 @@ roslaunch hector_quadrotor_gazebo nrsl_two_drones.launch
 ```
 Now, you can our simulator and then open another terminal:
 ```
-rosrun hector_quadrotor_gazebo pursuit_evasion.py
+rosrun hector_quadrotor_gazebo persuit_evasion.py
 ```
 When a Qt video window shows, typr the key _y_ to take off, type the key _p_ and you can see the performance. Key _h_ is land.
 
