@@ -13,23 +13,23 @@ The python script _persuit_evasion_game.py_ can show the game in a 500x700 windo
 <br>
 **When UEflag is set to be 0**:
 
-![image](https://github.com/Shicheng-Liu/persuit_evasion_game/blob/master/pursuer_ability_5.jpg)
+![image](https://github.com/Shicheng-Liu/pursuit_evasion_game/blob/master/pursuer_ability_5.jpg)
 
 In this fig, the ability of pursuer is 5(which is quite low), so the evader can reach the target.
 <br>
 
-![image](https://github.com/Shicheng-Liu/persuit_evasion_game/blob/master/pursuer_ability_10.jpg)
+![image](https://github.com/Shicheng-Liu/pursuit_evasion_game/blob/master/pursuer_ability_10.jpg)
 
 In this fig, the ability of pursuer is 10(which is high) so that the evader cannot reach the goal.
 <br>
 <br>
 **When UEflag is set to be 1**:
 
-![image](https://github.com/Shicheng-Liu/persuit_evasion_game/blob/master/uncertainty_estimation.jpg)
+![image](https://github.com/Shicheng-Liu/pursuit_evasion_game/blob/master/uncertainty_estimation.jpg)
 
 The estimated ability is 6.5. In this situation, the evader can reach the goal.
 
-![image](https://github.com/Shicheng-Liu/persuit_evasion_game/blob/master/estimation_curve.png)
+![image](https://github.com/Shicheng-Liu/pursuit_evasion_game/blob/master/estimation_curve.png)
 
 Gazebo simulation
 --
@@ -38,7 +38,7 @@ To implement this algorithm on drones, we need drone simulation to prove it. Thi
 <br>
 <br> First, clone this repository into an empty folder:
 ```
-git clone https://github.com/Shicheng-Liu/persuit_evasion_game.git
+git clone https://github.com/Shicheng-Liu/pursuit_evasion_game.git
 ```
 Then change the name of this repo(you just download as a folder) to src, and then:
 ```
@@ -59,4 +59,4 @@ rosrun hector_quadrotor_gazebo persuit_evasion.py
 ```
 When a Qt video window shows, typr the key _y_ to take off, type the key _p_ and you can see the performance. Key _h_ is land.
 
-![image](https://github.com/Shicheng-Liu/persuit_evasion_game/blob/master/persuit-evasion-game.gif)
+![image](https://github.com/Shicheng-Liu/pursuit_evasion_game/blob/master/persuit-evasion-game.gif)
